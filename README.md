@@ -14,7 +14,7 @@ https://discord.gg/HerculesLabs
 
 
 #### How to set up it up
-The 1s in this part of the server.lua file must be replaced with the IDs of your discord roles that are equal to the prefix you have associated with it:
+The ROLE-ID in this part of the server.lua file must be replaced with the IDs of your discord roles that are equal to the prefix you have associated with it:
 ```lua
 roleList = {
 {ROLE-ID, "~w~Civilian"}, -- Regular Civilian / Non-Staff
